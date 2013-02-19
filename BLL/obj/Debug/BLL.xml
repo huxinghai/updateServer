@@ -1,0 +1,210 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BLL
+</name>
+</assembly>
+<members>
+<member name="P:BLL.DbHelper.Connection">
+	<summary>
+ Connection对象
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.DbHelper.Query(System.String)">
+	<summary>
+ 查询方法
+ </summary>
+	<param name="sql">sql语句</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.DbHelper.ExecuteSql(System.String)">
+	<summary>
+ 执行sql语句
+ </summary>
+	<param name="sql">sql语句</param>
+	<remarks></remarks>
+</member><member name="M:BLL.DbHelper.IsExists(System.String)">
+	<summary>
+ 判断是否存在资料
+ </summary>
+	<param name="sql">sql语句</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.DbHelper.ExecuteTran(System.String)">
+	<summary>
+执行事务 
+ </summary>
+	<param name="sql">构造sql语句</param>
+	<remarks></remarks>
+</member><member name="M:BLL.DbHelper.GetServerDate">
+	<summary>
+ 得到服务器日期
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="F:BLL.ftp.Address">
+	<summary>
+ ftp地址
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BLL.ftp.PassWord">
+	<summary>
+ ftp密码
+ </summary>
+	<remarks></remarks>
+</member><member name="F:BLL.ftp.UserName">
+	<summary>
+ ftp用户名
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.query(System.String)">
+	<summary>
+ 查询更新信息
+ </summary>
+	<param name="sn"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.IsGetYn(System.String)">
+	<summary>
+ 判断程序名称是否存在
+ </summary>
+	<param name="Sn"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.querydetails(System.String)">
+	<summary>
+ 查询更新明细
+ </summary>
+	<param name="uid"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.IsDetails(System.String,System.String)">
+	<summary>
+ 判断文件是否存在
+ </summary>
+	<param name="uid"></param>
+	<param name="path"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.DeleteUpdateServerDetails(System.String,System.String,System.String)">
+	<summary>
+ 删除更新明细,参数可选项
+ </summary>
+	<param name="id">主键</param>
+	<param name="uid">主表外键</param>
+	<param name="path">路径</param>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.Add(BLL.UpdateServer)">
+	<summary>
+ 添加更新程序
+ </summary>
+	<param name="model"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.AddULf(BLL.UpdateServerDetails)">
+	<summary>
+ 添加更新的文件
+ </summary>
+	<param name="Model">明细对象 </param>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.UpdateServerFile(BLL.UpdateServer)">
+	<summary>
+ 上传文件
+ </summary>
+	<param name="model"></param>
+	<remarks></remarks>
+</member><member name="M:BLL.SqlServer.ExecuteTran(System.String)">
+	<summary>
+ 执行事务
+ </summary>
+	<param name="sql"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServer.Id">
+	<summary>
+ 编号
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServer.SystemName">
+	<summary>
+ 程序名称
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServer.fileName">
+	<summary>
+ 路径
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServer.Version">
+	<summary>
+ 版本号
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServer.Remark">
+	<summary>
+ 备注
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServer.State">
+	<summary>
+ 状态
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServerDetails.Id">
+	<summary>
+ 编号
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServerDetails.UId">
+	<summary>
+ 主表外键
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServerDetails.ServerName">
+	<summary>
+ 名称
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.UpdateServerDetails.Paths">
+	<summary>
+ 路径
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:BLL.My.Resources.Resources.ResourceManager">
+	<summary>
+  返回此类使用的缓存 ResourceManager 实例。
+</summary>
+</member><member name="P:BLL.My.Resources.Resources.Culture">
+	<summary>
+  为使用此强类型资源类的所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member><member name="T:BLL.My.Resources.Resources">
+	<summary>
+  强类型资源类，用于查找本地化字符串等。
+</summary>
+</member>
+</members>
+</doc>

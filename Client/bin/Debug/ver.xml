@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<mem name="cn">
+  <ver>1.0.2</ver>
+  <SystemName>xxxx</SystemName>
+  <date>2010-10-18</date>
+  <execute>test.exe</execute>
+</mem>

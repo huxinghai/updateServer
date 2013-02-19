@@ -1,0 +1,1 @@
+Password=tenran;Persist Security Info=True;User ID=sa;Initial Catalog=Print_FactorySystem;Data Source=.
